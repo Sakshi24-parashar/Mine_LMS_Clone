@@ -1,0 +1,32 @@
+.teacher{
+    height: 500px;
+    display: flex;
+    padding: 4em;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+    justify-items: center;
+    align-items: center;
+}
+.teachimg{
+    object-fit:fill;
+    height: 300px;
+    width: 500px;
+    animation: sakshi 10s infinite;
+}
+@keyframes sakshi {
+    0%{
+        transform: rotateX(0);
+        
+
+    }
+    50%{
+        transform: rotateY(360deg);
+        
+    }
+    100%{
+        transform: rotateX(0);
+       
+
+    }
+}
